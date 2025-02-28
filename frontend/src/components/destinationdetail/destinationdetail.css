@@ -1,0 +1,145 @@
+h3 {
+    color: darkslategray;
+    font-size: 1.5rem;
+}
+  
+button {
+    background-color: slateblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+  
+button:hover {
+    background-color: blue;
+}
+  
+.destination-photos {
+    margin-top: 20px;
+}
+  
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+  
+.photo-gallery img {
+    max-width: 100%;
+    height: auto;
+    max-height: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+  
+.reviews-section {
+    margin-top: 30px;
+}
+  
+.reviews-list {
+    margin-top: 20px;
+}
+  
+.review-item {
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+  
+.review-item p {
+    margin: 5px 0;
+}
+  
+.review-item p strong {
+    font-weight: bold;
+}
+  
+.review-item p:nth-child(1) {
+    font-size: 1.2rem;
+    color: darkslategray;
+}
+  
+.review-item p:nth-child(2) {
+    color: orange;
+    font-weight: 600;
+}
+  
+.review-form {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+.review-form textarea {
+    width: 95%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    resize: vertical;
+}
+  
+.review-form .rating {
+    margin-top: 10px;
+}
+  
+.review-form label {
+    margin-right: 10px;
+    font-weight: 500;
+}
+  
+.review-form button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+  
+.review-form button:hover {
+    background-color: darkgreen;
+}
+  
+.reviews-section p {
+    font-size: 1rem;
+    color: red;
+    font-weight: 500;
+}
+
+.destination-detail {
+    width: 80%;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+
+.destination-details img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+  
+.back {
+    float: right;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}

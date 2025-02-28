@@ -1,0 +1,34 @@
+.profile-content {
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+  
+.profile-info {
+    font-size: 18px;
+}
+  
+.profile-info p {
+    margin: 10px 0;
+}
+  
+.profile-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.delete-account-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 30px;
+}

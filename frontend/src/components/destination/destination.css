@@ -1,0 +1,50 @@
+.sorting {
+    display: flex;
+}
+
+.sorting h2 {
+    padding-right: 50px;
+}
+
+.sorting button {
+    float: right;
+    height: 99%;
+}
+
+.destination-content {
+    justify-content: center;
+    padding: 40px;
+    margin-right: 40px;
+}
+
+.destination-content h2 {
+    padding-bottom: 20px;
+}
+
+.destination-item {
+    background-color: white;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.destination-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.destination-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.destination-rating {
+    font-size: 16px;
+    color: black;
+}

@@ -1,0 +1,38 @@
+.hotel-list {
+    justify-content: center;
+    padding: 40px;
+    margin-right: 40px;
+}
+
+.hotel-item h2 {
+    padding-bottom: 0px;
+}
+
+.hotel-item {
+    background-color: white;
+    padding: 25px;
+    margin: 20px 0;
+    margin-top: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hotel-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.hotel-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hotel-rating {
+    font-size: 16px;
+    color: black;
+}
